@@ -1,0 +1,11 @@
+bases:
+  - ../../base
+
+namePrefix: dev-
+
+commonLabels:
+  environment: dev
+
+patches:
+  - wordpress.yaml
+  - mysql.yaml
