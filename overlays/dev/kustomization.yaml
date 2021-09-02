@@ -9,3 +9,8 @@ commonLabels:
 patches:
   - wordpress.yaml
   - mysql.yaml
+
+secretGenerator:
+  - name: mysql-config
+    envs:
+    - .env.secret
